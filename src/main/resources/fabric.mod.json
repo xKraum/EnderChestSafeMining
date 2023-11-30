@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "enderchest-safe-mining",
+	"version": "${version}",
+	"name": "Ender Chest Safe Mining",
+	"description": "",
+	"authors": [
+		"xKraum"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/enderchest-safe-mining/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.enderchestsafemining.EnderChestSafeMining"
+		]
+	},
+	"mixins": [
+		"enderchest-safe-mining.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.18.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
