@@ -16,8 +16,8 @@ public class EnderChestSafeMining implements ModInitializer {
 
     public static void toggleSafeMiningChecker() {
         active = !active;
-        String status = active ? "ON" : "OFF";
-        UILogger.setOverlayMessage("Ender Chest safe mining " + status);
+        String keyMessage = active ? "enderchestsafemining.toggle.on" : "enderchestsafemining.toggle.off";
+        UILogger.setOverlayMessage(keyMessage, true);
     }
 
     @Override

@@ -1,0 +1,5 @@
+{
+  "enderchestsafemining.toggle.on": "Minado seguro del Ender Chest: ON",
+  "enderchestsafemining.toggle.off": "Minado seguro del Ender Chest: OFF",
+  "enderchestsafemining.action.prevented": "Acción evitada: El Ender Chest no es seguro de romper."
+}

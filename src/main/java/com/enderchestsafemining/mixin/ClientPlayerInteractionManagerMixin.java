@@ -38,7 +38,7 @@ public abstract class ClientPlayerInteractionManagerMixin {
                 boolean willEnderChestDropItem = EnderChestChecker.willDropEnderChest(this.client.player);
 
                 if (!willEnderChestDropItem) {
-                    UILogger.setOverlayMessage("Action Prevented: Ender Chest is not safe to break.");
+                    UILogger.setOverlayMessage("enderchestsafemining.action.prevented", true);
                     cir.cancel();
                 }
             }
